@@ -35,7 +35,7 @@ html {
 }
 body{
   background-color: var(--color-fondo);
-  overflow: -moz-hidden-unscrollable;
+
 }
 #App{
   min-height: 100vh;
@@ -745,7 +745,6 @@ h1{
   justify-content: center;
   align-items: center;
   font-size: 3rem;
-  overflow: scroll;
   bottom: 50px;
   right: 10px;
   z-index: 8;
@@ -1602,19 +1601,18 @@ font-size: 1.5rem;
     width: 50%;
 }
 .container-setting-link {
-    display: flex;
-    background: #6c79db;
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    font-size: 5rem;
-    overflow: scroll;
-    bottom: 50px;
-    right: 90px;
-    z-index: 8;
+  display: flex;
+  background: #6c79db;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  bottom: 50px;
+  right: 90px;
+  z-index: 8;
 }
 
 }
@@ -1672,7 +1670,6 @@ font-size: 1.5rem;
     justify-content: center;
     align-items: center;
     font-size: 5rem;
-    overflow: scroll;
     bottom: 50px;
     right: 90px;
     z-index: 8;
