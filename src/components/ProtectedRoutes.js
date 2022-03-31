@@ -8,7 +8,7 @@ const ProtectedRoutes = () => {
 
   //userName !== "" --> opcion para la condicion del if, hacer esto es decirle que si username es diferente a un string vacio puede cumplir la condicion y si esto no se cumple no dejara acceder a las rutas protegidas
 
-  if (true) {
+  if (userName) {
     return <Outlet />;
   } else {
     return <Navigate to="/" />;
