@@ -14,7 +14,7 @@ const PokedexInfo = () => {
       .then((res) => setPokeInfo(res.data));
 
   }, [id])
-  console.log(pokeInfo);
+  // console.log(pokeInfo);
 
 
   return (

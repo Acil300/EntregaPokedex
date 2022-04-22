@@ -579,7 +579,7 @@ h1{
 .title-input{
   position: absolute;
   top: 120px;
-  left:130px;
+  left:80px;
   letter-spacing: 2px;
   font-weight: 900;
   color: var(--white);
@@ -588,7 +588,7 @@ h1{
   width: 120px;
   position: absolute;
   top:80px;
-  left:254px;
+  left:200px;
 }
 .pokemon-background{
   position:fixed;
@@ -653,13 +653,13 @@ h1{
   position: relative;
   top: 0;
   width: 100%;
-  height: 640vh;
+  height: 690vh;
   padding:2px ;
 
 }
 .img-info-pokemon{
   position: absolute;
-  width: 60%;
+  max-width: 50%;
   z-index: 1;
 }
 .container-infopoke{
@@ -698,7 +698,7 @@ h1{
 }
 .border-name{
   border-bottom: 2px solid #eeefef;
-  width: 28%;
+  width: 20%;
   position: relative;
   top: 100px;
   left: -55px;
@@ -707,7 +707,7 @@ h1{
 }
 .border-name2{
   border-bottom: 2px solid #eeefef;
-  width: 28%;
+  width: 20%;
   position: relative;
   top: 100px;
   display: inline-block;
@@ -778,7 +778,7 @@ h1{
 }
 .border-name3{
   border-bottom: 2px solid #eeefef;
-  width: 28%;
+  width: 20%;
   position: relative;
   top: 30px;
   left:-45px;
@@ -787,7 +787,7 @@ h1{
 }
 .border-name4{
   border-bottom: 2px solid #eeefef;
-  width: 28%;
+  width: 20%;
   position: relative;
   top: 30px;
   display: inline-block;
@@ -837,7 +837,7 @@ h1{
 
 .container3{
   width: 90%;
-  height:250px;
+  height:260px;
   margin: 0 auto;
   background-color:var(--white);
   position: relative;
@@ -852,7 +852,7 @@ h1{
 }
 .border-name5{
   border-bottom: 2px solid #eeefef;
-  width: 28%;
+  width: 20%;
   position: relative;
   top: -115px;
   display: inline-block;
@@ -861,7 +861,7 @@ h1{
 }
 .border-name6{
   border-bottom: 2px solid #eeefef;
-  width: 28%;
+  width: 20%;
   position: relative;
   top: -115px;
   display: inline-block;
@@ -922,12 +922,12 @@ h1{
 
 .container4{
   width: 90%;
-  height:400px;
+  height: 430px;
   margin: 0 auto;
-  background-color:var(--white);
+  background-color: var(--white);
   position: relative;
-  top: 15px;
-  box-shadow: 2px 4px 18px 2px rgba(0,0,0 ,0.25);
+  top: 55px;
+  box-shadow: 2px 4px 18px 2px rgb(0 0 0 / 25%);
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -942,7 +942,7 @@ h1{
   top: 30px;
   display: inline-block;
   margin: 10px;
-  margin-left: -137px;
+  margin-left: -125px;
 }
 .border-name8{
   border-bottom: 2px solid #eeefef;
@@ -951,7 +951,7 @@ h1{
   top: 30px;
   display: inline-block;
   margin: 10px;
-  left: 150px;
+  left: 135px;
 }
 #state-title{
   font-size:3rem;
@@ -1016,7 +1016,7 @@ font-size: 1.5rem;
 
 .container5{
   width: 95%;
-  height:415vh;
+  height:440vh;
   margin: 0 auto;
   background-color:var(--white);
   position: relative;
@@ -1035,18 +1035,18 @@ font-size: 1.5rem;
 }
 .border-name9{
   border-bottom: 2px solid #eeefef;
-  width: 20%;
+  width: 15%;
   position: relative;
-  bottom:3420px;
+  bottom:3680px;
   display: inline-block;
   margin: 10px;
   left: -75px;
 }
 .border-name10{
   border-bottom: 2px solid #eeefef;
-  width: 20%;
+  width: 15%;
   position: relative;
-  bottom:3420px;
+  bottom:3680px;
   display: inline-block;
   margin: 10px;
   left: 75px;
@@ -1056,7 +1056,7 @@ font-size: 1.5rem;
   text-align: center;
   margin: 0 auto;
   position: relative;
-  bottom: 3425px;
+  bottom: 3690px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1064,7 +1064,7 @@ font-size: 1.5rem;
 }
 #movement-title{
   position: relative;
-  bottom:3460px;
+  bottom:3720px;
   font-size:3rem;
   width:50%;
   margin: 0 auto;
@@ -1407,7 +1407,7 @@ font-size: 1.5rem;
 /*info pokemon page*/
 .img-info-pokemon {
   position: absolute;
-  width: 35%;
+  max-width: 35%;
   z-index: 1;
   top: 115px;
 }
@@ -1433,26 +1433,26 @@ font-size: 1.5rem;
 }
 #movement-title {
   position: relative;
-  bottom: 3518px;
+  bottom: 3725px;
 }
 .border-name9 {
   border-bottom: 2px solid #eeefef;
-  width: 20%;
+  width: 18%;
   position: relative;
-  bottom: 3478px;
+  bottom: 3690px;
 }
 .border-name10 {
   border-bottom: 2px solid #eeefef;
-  width: 20%;
+  width: 18%;
   position: relative;
-  bottom: 3477px;
+  bottom: 3690px;
 }
 .movent-wrapper {
   width: 50%;
   text-align: center;
   margin: 0 auto;
   position: relative;
-  bottom: 3455px;
+  bottom: 3680px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1464,6 +1464,7 @@ font-size: 1.5rem;
 @media screen and (min-width:1024px){
 
 /* cards pokemon */
+
 #title-pokemons .contorn-grass{
   color:rgba(65, 100, 96, 1);
   margin-top: 10px;
@@ -1516,23 +1517,23 @@ font-size: 1.5rem;
   gap: 15px 75px;
 }
 #card-container {
-    width: 100%;
-    height: 510px;
-    border-radius: 20px;
-    box-shadow: 2px 4px 18px 2px rgb(250 246246 / 55%);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-color: var(--white);
-    border: 10px solid;
+  width: 100%;
+  height: 510px;
+  border-radius: 20px;
+  box-shadow: 2px 4px 18px 2px rgb(250 246246 / 55%);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: var(--white);
+  border: 10px solid;
 }
 #card-container {
   width: 120%;
@@ -1551,7 +1552,7 @@ font-size: 1.5rem;
 }
 .img-info-pokemon {
   position: absolute;
-  width: 25%;
+  max-width: 25%;
   z-index: 1;
   top: 115px;
 }
@@ -1572,7 +1573,7 @@ font-size: 1.5rem;
 }
 .img-info-pokemon {
     position: absolute;
-    width: 20%;
+    max-width: 20%;
     z-index: 1;
     top: 115px;
 }
@@ -1595,7 +1596,7 @@ font-size: 1.5rem;
 }
 .container5 {
   width: 95%;
-  height: 390vh;
+  height: 440vh;
 }
 .container-infopoke {
     width: 50%;
@@ -1613,6 +1614,26 @@ font-size: 1.5rem;
   bottom: 50px;
   right: 90px;
   z-index: 8;
+}
+#movement-title {
+  position: relative;
+  bottom: 3720px;
+}
+.movent-wrapper {
+  position: relative;
+  bottom: 3650px;
+}
+.border-name9 {
+    border-bottom: 2px solid #eeefef;
+    width: 18%;
+    position: relative;
+    bottom: 3670px;
+}
+.border-name10 {
+    border-bottom: 2px solid #eeefef;
+    width: 18%;
+    position: relative;
+    bottom: 3670px;
 }
 
 }
@@ -1685,12 +1706,7 @@ font-size: 1.5rem;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.img-info-pokemon {
-  position: absolute;
-  width: 12%;
-  z-index: 1;
-  top: 165px;
-}
+
 .fa-circle-chevron-left {
   font-size: 9rem;
   color: #40ff2f;
