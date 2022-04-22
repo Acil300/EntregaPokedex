@@ -22,11 +22,11 @@ const SettingsFab = ({ setItemNumbers, setIsShowing }) => {
         <div id="container-theme">
           <h2 id="title-theme">Theme</h2>
           <div className="container-theme-setting">
-            <h3 id="light-theme">Light</h3>
+            <h3 id="light-theme">Dark</h3>
             <div className="toggle-container" onClick={(e) => clickToggle(e)}>
               <div className="toggle-button"></div>
             </div>
-            <h3 className="dark-theme">Dark</h3>
+            <h3 className="dark-theme">Light</h3>
           </div>
         </div>
 
